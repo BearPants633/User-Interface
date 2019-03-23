@@ -72,7 +72,7 @@ body {
 
 /* navigation styling */
 nav {
-	margin: 10px 0 20px;
+	margin: 10px 0 40px;
 
 }
 
@@ -104,5 +104,60 @@ header img {
 }
 
 header .left-header button {
-	margin: 0 100px;
+	margin: 0 100px 50px;
+}
+
+/* content styling */
+
+h2 {
+	font-size: 24px;
+}
+
+.body-content {
+	border-top: black 2px solid;
+	border-bottom: black 2px solid;
+	width: 100%;
+}
+
+.upper-content {
+	width: 490px;
+	display: inline-block;
+	margin: 25px 0;
+}
+
+.middle-img {
+	width: 100%;
+}
+
+.lower-content {
+	width: 320px;
+	display: inline-block;
+	margin: 40px 0;
+}
+
+#lower-middle {
+	margin: 50px 15px 50px;
+}
+
+/* footer slyling */
+
+footer {
+	margin-top: 30px;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+address p {
+	line-height: 2em;
+}
+
+.copyright {
+	text-align: center;
+	margin: 20px auto 50px;
+}
+
+footer address p:first-child {
+	line-height: 1;
 }
