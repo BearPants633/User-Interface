@@ -72,13 +72,35 @@ body {
 
 /* navigation styling */
 nav {
-	margin: 10px 0 40px;
+	width: 1000px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+	position: fixed;
+	transform: translateY(-100px);
+	background-color: lime;
+	border-radius: 15px;
+}
 
+.logo {
+	transition: background-color 2s ease-in-out;
+}
+
+.logo:hover {
+	background-color: yellow;
+	border-radius: 10px
 }
 
 a {
-	margin: 3%;
-	color: grey;
+	margin: 26px;
+	padding: 2px;
+	color: lime;
+	border: lightgrey 3px outset;
+	background-color: grey;
+	vertical-align: middle;
+}
+
+a:active {
+	border: grey 3px inset;
 }
 
 nav img {
@@ -86,6 +108,10 @@ nav img {
 }
 
 /* header syling */
+
+header {
+	margin-top: 100px;
+}
 
 .left-header {
 	width: 600px;
